@@ -16,3 +16,4 @@ if(!post.publicado){
 }
 
 post.metricas.curtidas++;
+console.log(`Post de @${post.autor} agora tem ${post.metricas.curtidas} curtidas.`);
